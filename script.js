@@ -3,8 +3,8 @@
 const btn = document.getElementById('enterBtn');
 
 btn.addEventListener('click', function(e) {
-	const status = document.getElementById('status')
-	status.outerHTML='<p id="status">Entered Metaverse</p>'
+	let PStatus = document.getElementById('status')
+	PStatus.outerHTML='<h1 id="status">Entered Metaverse</h1>'
 })
 
 
